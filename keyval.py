@@ -1,0 +1,16 @@
+#!/us/bin/python3
+mydir={
+"Name":"Aamir\n",
+"Roll":"no\n",
+"Role":"Currently_persuing_btech\n"}
+print(mydir)
+print(mydir["Name"])
+print(mydir["Role"])
+print(mydir.keys())
+print(mydir.values())
+print(mydir.items())
+print("BEFORE")
+print(mydir.get("1Name"))
+print("AFTER")
+mydir.update({"city":"Dbg"})
+print(mydir)
