@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+L=[1,2,3,4,5]
+print(L[1])
+print(L[-3])
+L2=L[1:4]
+print(L2)
+print(L[:2])
+print(L[1:])
+print(L[::2])
+print(L[1:4:2])
+print(L[::-1])
+print(L[-5:-1])
+L3=L[-5:-2]
+print(L3)
+print(L[-5:-2:2])
+print(L[4:1:-1])
