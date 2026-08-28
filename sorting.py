@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+L=[2,3,4,5,1,0,7]
+L.sort()
+print(L)
+L.sort(reverse=True)
+print(L)
+L2=["lucknow",3,7,3]
+L2.sort(key=str)
+print(L2)
+L3=["lucknow","LUCKNOW","Kanpur","JAUNPUR"]
+L3.sort(key=str.lower,reverse=True)
+print(L3)

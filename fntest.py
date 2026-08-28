@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+L=[9,6,8,5,4,21,7]
+L.reverse()
+print(L)
+L2=list(reversed(L))
+print(L)
+print(L2)
+L.pop(2)
+print(L)

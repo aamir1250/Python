@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+L=[2,1,8,7,6,9,5]
+L2=sorted(L)
+print(L)
+print(L2)
+L3=sorted(L,reverse=True)
+L5=["lucknow",3,7,"noya"]
+L4=sorted(L5,key=str,reverse=True)
+print(L4)
