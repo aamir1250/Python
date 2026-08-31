@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+d={}
+print(d)
+d2={"name":"Aamir","city":"Lucknow","age":20}
+print(d2)
+print(d2["city"])
+print(d2["age"])
+d3={"data":{"name":"Aamir","age":30}}
+print(d3)
+print(d3["data"]["age"])
+d3["data"]["city"]="kanpur"
+print(d3)
+d4=dict(name="Aamir",city="Lucknow")
+print(d4)
+d5=dict([("name","sumit"),("age",30)])
+print(d5)
