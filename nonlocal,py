@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+def make_demo():
+	x=1
+	def demo():
+		nonlocal x
+		print(x)
+		x=x+1
+	return demo
+demo=make_demo()
+
+demo()
+demo()
+demo()
