@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 name="lucknow"
-print(name)
-x=len(name)
-print(x)
-y=name+"junction"
-print(y)
+#print(name)
+#x=len(name)
+#print(x)
+#y=name+"junction"
+#print(y)
 print(name)
 print(name*5)
 print(name[-5:-1])
